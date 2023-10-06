@@ -2,6 +2,8 @@
 using HKQTravelling.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 /*using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;*/
 using System.Security.Cryptography;
@@ -25,22 +27,22 @@ namespace HKQTravelling.Controllers
             return View();
         }
 
-        /*[HttpPost]
+        [HttpPost]
         public async Task<IActionResult> Login(IFormCollection formCollection)
         {
             string username = formCollection["UserName"];
             string password = formCollection["Password"];
             string hashedPassword = GetMD5Hash(password);
-            *//*var dbUser = await data.Users.FirstOrDefaultAsync(u => u.Username == username && u.Password == hashedPassword);*/
-            /*if(dbUser != null)
+            var dbUser = await data.Users.FirstOrDefaultAsync(u => u.Username == username && u.Password == hashedPassword);
+            if (dbUser != null)
             {
                 if (dbUser.RoleId == 1)
                 {
                     // Chuyển đổi đối tượng dbUser thành chuỗi JSON
-                    *//*var userJson = JsonConvert.SerializeObject(dbUser);
-*/
-/*                    // Lưu chuỗi JSON vào phiên
-                    HttpContext.Session.SetString("use", userJson);*//*
+                    var userJson = JsonConvert.SerializeObject(dbUser);
+
+                    // Lưu chuỗi JSON vào phiên
+                    HttpContext.Session.SetString("use", userJson);
 
                     // Lưu phiên lại
                     await HttpContext.Session.CommitAsync();
@@ -51,8 +53,8 @@ namespace HKQTravelling.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
-            return View();*//*
-        }*/
+            return View();
+        }
 
 
         [HttpGet]
