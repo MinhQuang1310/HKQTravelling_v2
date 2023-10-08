@@ -654,3 +654,4 @@ D:\Document\DACN\HKQTravelling_v2\HKQTravelling\obj\Debug\net7.0\scopedcss\proje
 D:\Document\DACN\HKQTravelling_v2\HKQTravelling\obj\Debug\net7.0\HKQTravelling.csproj.CopyComplete
 D:\Document\DACN\HKQTravelling_v2\HKQTravelling\obj\Debug\net7.0\HKQTravelling.genruntimeconfig.cache
 D:\Document\DACN\HKQTravelling_v2\HKQTravelling\obj\Debug\net7.0\ref\HKQTravelling.dll
+D:\Document\DACN\HKQTravelling_v2\HKQTravelling\obj\Debug\net7.0\scopedcss\Views\Test\_Layout.cshtml.rz.scp.css
