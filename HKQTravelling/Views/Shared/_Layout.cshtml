@@ -5,34 +5,457 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - HKQTravelling</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/HKQTravelling.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link href="~/css/page-detail.css" rel="stylesheet" />
+	<link href="~/css/responsive.css" rel="stylesheet" />
+	<link href="~/fonts/all.css" rel="stylesheet" />
+	<link href="~/daterangepicker/daterangepicker.css" rel="stylesheet" />
+	<link href="~/owlcarousel/owl.carousel.min.css" rel="stylesheet" />
+	<link href="~/owlcarousel/owl.theme.default.min.css" rel="stylesheet" />
+	<link href="~/slick/slick.css" rel="stylesheet" />
+	<link href="~/fancybox/fancybox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="~/js/main.js"></script>
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HKQTravelling</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Đăng nhập</a>
-                        </li>
-                    </ul>
+       <div class="header-top_wp">
+           <div class="container">
+                <div class="header__top">
+                    <div class="logo">
+                        <a href="/"><img src="~/img/logo/logo2.png" alt="HKQTour"></a>
+                     </div>
+                    <div class="header__mid d-none d-lg-block">
+                        <ul class="header__list-tag ">
+                            <li class="header__tag-item">
+                                <a href="/Destination/nha-trang" class="header__tag--link btn">Tour Ngày Lễ </a>
+                            </li> 
+                            <li class="header__tag-item">
+                                <a href="/Destination/da-nang" class="header__tag--link btn">Tour Theo mùa </a>
+                            </li>
+                            <li class="header__tag-item">
+                                <a href="/Destination/phu-quoc" class="header__tag--link btn">Tour Nổi Bật</a>
+                            </li>
+                            <li class="header__tag-item">
+                                <a href="/tour-khuyen-mai" class="header__tag--link btn">Tour Khuyến Mãi</a>
+                            </li>
+                        </ul>
+                        <div class="header__info">
+
+                            <div class="menu-tel position-relative">
+                                <div class="header__info--tel header__info__item" data-toggle="dropdown">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a href="tel: 0947 800 475" class="ml-1 mr-2">hotline: 0947 800 475</a>
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+                                <div class="header__info--hotline header__info__item dropdown-menu">
+                                    <i class="fas fa-mobile-alt ml-1" style="font-size: 15px"></i>
+                                    <a href="tel:0947800475" class="ml-2 mr-2">di động: 0947 800 475</a>
+                                </div>
+                            </div>
+                            <div class="header__info--mail header__info__item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:hungdeptrai11@gmail.com">hungdeptrai111@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__right d-none d-lg-block">
+  
+                                <a href="#" class="btn btn--sign-up"><span>Đăng ký</span></a>
+                                <a href="#" class="btn btn--login"><span>Đăng nhập</span></a>
+                     </div>
+                        <div class="header__right-mobile d-flex d-lg-none">
+
+
+                            <a href="javascript:void(0)" class="toogle-menu"><img src="~/img/slide/menu.png"></a>
+                        </div>
+
+                    </div>
                 </div>
+           </div>
+        <nav class="header__bottom">
+            <div class="container">
+
+
+                <ul class="nav-menu">
+
+                    <li class="nav__item">
+                        <a href="/" class="nav--link">Trang chủ</a>
+                    </li>
+                    <li class="nav__item pos-static">
+                        <a href="/du-lich-trong-nuoc" class="nav--link">DU LỊCH TRONG NƯỚC</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-2">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-large">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">MIỀN BẮC</h3>
+                                            <ul class="menu-child">
+
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/ha-noi" class="menu-child--link">
+                                                        Hà Nội
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/nam-dinh" class="menu-child--link">
+                                                        Nam Định
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/moc-chau" class="menu-child--link">
+                                                        Mộc Châu
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/ha-long" class="menu-child--link">
+                                                        Hạ Long
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/sapa" class="menu-child--link">
+                                                        Sapa
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/ninh-binh" class="menu-child--link">
+                                                        Ninh Bình
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">MIỀN TRUNG</h3>
+                                            <ul class="menu-child">
+
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/hue" class="menu-child--link">
+                                                        Huế
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/da-nang" class="menu-child--link">
+                                                        Đà Nẵng
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/da-lat" class="menu-child--link">
+                                                        Đà Lạt
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/quy-nhon" class="menu-child--link">
+                                                        Quy Nhơn
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/thanh-hoa" class="menu-child--link">
+                                                        Thanh Hóa
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/nha-trang" class="menu-child--link">
+                                                        Nha Trang
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">MIỀN NAM</h3>
+                                            <ul class="menu-child">
+
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/ho-chi-minh" class="menu-child--link">
+                                                        Hồ Chí Minh
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/phu-quoc" class="menu-child--link">
+                                                        Phú Quốc
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/con-dao" class="menu-child--link">
+                                                        Côn Đảo
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/ca-mau" class="menu-child--link">
+                                                        Cà Mau
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="menu-hover__item">
+                                            <h3 class="menu-hover__head">TOUR THEO CHỦ ĐỀ</h3>
+                                            <ul class="menu-child">
+
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/kich-cau-hau-covid" class="menu-child--link">
+                                                        Kích cầu hậu Covid
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/tour-nghi-le-30-04" class="menu-child--link">
+                                                        Tour nghỉ lễ 30-04
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/tour-theo-mua" class="menu-child--link">
+                                                        Tour theo mùa
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/tour-mua-thu" class="menu-child--link">
+                                                        Tour mùa thu
+                                                    </a>
+                                                </li>
+                                                <li class="menu-child__item">
+                                                    <a href="/Destination/du-lich-he" class="menu-child--link">
+                                                        Du lịch hè
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collaps-2" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-1">MIỀN BẮC</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-1">
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/ha-noi" class="menu-child--link">Hà Nội</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/nam-dinh" class="menu-child--link">Nam Định</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/moc-chau" class="menu-child--link">Mộc Châu</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/ha-long" class="menu-child--link">Hạ Long</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/sapa" class="menu-child--link">Sapa</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/ninh-binh" class="menu-child--link">Ninh Bình</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-2">MIỀN TRUNG</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-2">
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/hue" class="menu-child--link">Huế</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/da-nang" class="menu-child--link">Đà Nẵng</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/da-lat" class="menu-child--link">Đà Lạt</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/quy-nhon" class="menu-child--link">Quy Nhơn</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/thanh-hoa" class="menu-child--link">Thanh Hóa</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/nha-trang" class="menu-child--link">Nha Trang</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-3">MIỀN NAM</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-3">
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/ho-chi-minh" class="menu-child--link">Hồ Chí Minh</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/phu-quoc" class="menu-child--link">Phú Quốc</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/con-dao" class="menu-child--link">Côn Đảo</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/ca-mau" class="menu-child--link">Cà Mau</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu-mobile__item">
+                                <h3 class="menu-mobile__head">
+                                    <a href="" data-toggle="collapse" data-target="#collaps-child-4">TOUR THEO CHỦ ĐỀ</a>
+
+                                </h3>
+                                <ul class="menu-child collapse" id="collaps-child-4">
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/kich-cau-hau-covid" class="menu-child--link">Kích cầu hậu Covid</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/tour-nghi-le-30-04" class="menu-child--link">Tour nghỉ lễ 30-04</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/tour-theo-mua" class="menu-child--link">Tour theo mùa</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/tour-mua-thu" class="menu-child--link">Tour mùa thu</a>
+                                    </li>
+                                    <li class="menu-child__item">
+                                        <a href="/Destination/du-lich-he" class="menu-child--link">Du lịch hè</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a asp-area="" asp-controller="Tour" asp-action="Index" class="nav--link">HOT TOUR</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-3">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/tour-khuyen-mai" class="menu-child--link">Tour khuyến mãi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-3" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/tour-khuyen-mai" class="menu-child--link">Tour khuyến mãi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="/combo-du-lich" class="nav--link">COMBO DU LỊCH</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-4">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/combo" class="menu-child--link">Combo</a></li>
+                                    <li class="menu-child__item"><a href="/voucher" class="menu-child--link">Voucher</a></li>
+                                    <li class="menu-child__item"><a href="/du-lich-venus" class="menu-child--link">DU LỊCH VENUS</a></li>
+                                    <li class="menu-child__item"><a href="/khach-san" class="menu-child--link">Khách sạn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-4" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/combo" class="menu-child--link">Combo</a></li>
+                                    <li class="menu-child__item"><a href="/voucher" class="menu-child--link">Voucher</a></li>
+                                    <li class="menu-child__item"><a href="/du-lich-venus" class="menu-child--link">DU LỊCH VENUS</a></li>
+                                    <li class="menu-child__item"><a href="/khach-san" class="menu-child--link">Khách sạn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="/van-chuyen" class="nav--link">VẬN CHUYỂN</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-5">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/thue-xe" class="menu-child--link">Thuê xe</a></li>
+                                    <li class="menu-child__item"><a href="/du-thuyen" class="menu-child--link">Du thuyền</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-5" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/thue-xe" class="menu-child--link">Thuê xe</a></li>
+                                    <li class="menu-child__item"><a href="/du-thuyen" class="menu-child--link">Du thuyền</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="/blog-du-lich" class="nav--link">Blog du lịch</a>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="/tin-tuc" class="nav--link">TIN TỨC</a>
+                        <button type="button" class="btn-collapse" data-toggle="collapse" data-target="#collaps-7">
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                        <div class="menu-hover menu-basic">
+                            <div class="menu-hover__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/thu-vien" class="menu-child--link">Thư viện</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="collaps-7" class="menu-mobile collapse">
+                            <div class="menu-mobile__item">
+                                <ul class="menu-child">
+                                    <li class="menu-child__item"><a href="/thu-vien" class="menu-child--link">Thư viện</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="/lien-he" class="nav--link">LIÊN HỆ</a>
+
+                    </li>
+
+
+
+                    <li class="nav__item show-mobile">
+                        <div class="tel-number">
+                            <i class="fas fa-clock"></i>
+                            <a href="tel: 0242 242 0777">0242 242 0777</a>-
+                            <a href="tel: 0242 242 0777">0242 242 0777</a>
+                        </div>
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@webtravel.vn">info@webtravel.vn</a>
+                        </div>
+                    </li>
+                </ul>
+
+
             </div>
         </nav>
+        <div class="overlay-menu d-block d-lg-none">
+        </div>
     </header>
+
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

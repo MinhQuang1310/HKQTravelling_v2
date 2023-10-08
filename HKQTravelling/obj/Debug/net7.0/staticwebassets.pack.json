@@ -5,16 +5,304 @@
       "PackagePath": "staticwebassets\\HKQTravelling.bundle.scp.css"
     },
     {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\OwlCarousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\OwlCarousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\OwlCarousel\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\OwlCarousel\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\css1\\site.css",
+      "PackagePath": "staticwebassets\\css1\\site.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\css\\page-detail.css",
+      "PackagePath": "staticwebassets\\css\\page-detail.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
       "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\fancybox\\fancybox.css",
+      "PackagePath": "staticwebassets\\fancybox\\fancybox.css"
     },
     {
       "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\fonts\\all.css",
+      "PackagePath": "staticwebassets\\fonts\\all.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\img\\Logo\\LOGO2.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\LOGO2.png"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\img\\Logo\\bg.jpg",
+      "PackagePath": "staticwebassets\\img\\Logo\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\img\\Slide\\menu.png",
+      "PackagePath": "staticwebassets\\img\\Slide\\menu.png"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\img\\Tour\\0004822_tour-chua-linh-ung-son-tra-ngu-hanh-son-hoi-an.jpg",
+      "PackagePath": "staticwebassets\\img\\Tour\\0004822_tour-chua-linh-ung-son-tra-ngu-hanh-son-hoi-an.jpg"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\js1\\site.js",
+      "PackagePath": "staticwebassets\\js1\\site.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
       "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\js\\slider.js",
+      "PackagePath": "staticwebassets\\js\\slider.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib1\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib1\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib1\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib1\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib1\\jquery\\dist\\jquery.min.map"
     },
     {
       "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -243,6 +531,10 @@
     {
       "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Document\\DACN\\HKQTravelling_v2\\HKQTravelling\\wwwroot\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\slick\\slick.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HKQTravelling.Microsoft.AspNetCore.StaticWebAssets.props",

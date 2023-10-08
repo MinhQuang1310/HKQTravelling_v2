@@ -1,8 +1,1723 @@
-﻿@{
+﻿@using HKQTravelling.Models;
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="hot-tour box">
+    <div class="box__head">
+        <div class="container">
+            <div class="box__head-wp">
+                <h3> <a href="tour-khuyen-mai" class="">HOT TOUR</a></h3>
+                <ul class="nav nav-pills d-none d-lg-flex">
+                    <li class="nav-item ">
+                        <a class="nav-link active" data-toggle="pill" href="#hottour1">Tour khuyến mãi</a>
+                    </li>
+
+
+                </ul>
+                <ul class="nav nav-pills d-flex d-lg-none">
+                    <li class="nav-item ">
+                        <a class="nav-link active" data-toggle="pill" href="#hottour3">Tour khuyến mãi</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tab-content box__content d-none d-lg-block">
+        <div class="tab-pane active" id="hottour1">
+            <div class="hot-tour__list list-tour">
+                <!-- Tour khuyến mãi -->
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an"><img src="/files/images/tours/hoi_an_nam_trong_top_50_diem_den-1594520936343.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    4 Ngày / 3 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    20 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">25<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an">
+                                        HÀ NỘI – ĐÀ NẴNG – BÀ NÀ HILL – PHỐ CỔ HỘI AN <span class="list-tour__time">
+                                            (
+                                            4 Ngày / 3 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> 2021
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">3,700,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/1116/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-–-co-to-“chuyen-tinh-dao-nho”"><img src="/files/images/tours/55882072_1013527955501285_713651774493294592_n.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    3 Ngày / 2 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    20 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-–-co-to-“chuyen-tinh-dao-nho”">
+                                        HÀ NỘI – CÔ TÔ “CHUYỆN TÌNH ĐẢO NHỎ” <span class="list-tour__time">
+                                            (
+                                            3 Ngày / 2 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Ô Tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> Tháng 06
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">3,700,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2182/ha-noi-–-co-to-“chuyen-tinh-dao-nho”" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an"><img src="/files/images/tours/ha-noi-da-nang-ba-na-hill-pho-co-hoi-an/0004822_tour-chua-linh-ung-son-tra-ngu-hanh-son-hoi-an.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    4 Ngày / 3 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    4 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an">
+                                        HÀ NỘI – ĐÀ NẴNG – BÀ NÀ HILL – PHỐ CỔ HỘI AN <span class="list-tour__time">
+                                            (
+                                            4 Ngày / 3 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> 2021
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">3,200,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2184/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-–-bien-hai-tien-–ha-noi"><img src="/files/images/tours/ha-noi-%E2%80%93-bien-hai-tien-%E2%80%93ha-noi/cau-hai-tien3-1.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    3 Ngày / 2 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    5 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-–-bien-hai-tien-–ha-noi">
+                                        HÀ NỘI – BIỂN HẢI TIẾN –HÀ NỘI <span class="list-tour__time">
+                                            (
+                                            3 Ngày / 2 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Ô Tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> Tháng 06
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">2,055,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2185/ha-noi-–-bien-hai-tien-–ha-noi" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo"><img src="/files/images/tours/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo/lang-chai-Nhon-hai-Trung-Pham-2152-6699-1592469556.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    4 Ngày / 3 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    6 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo">
+                                        HÀ NỘI – QUY NHƠN – PHÚ YÊN-  VỀ MIỀN ĐẤT VÕ  <span class="list-tour__time">
+                                            (
+                                            4 Ngày / 3 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Máy Bay &amp; Ô tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> 2021
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">3,905,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2186/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”"><img src="/files/images/tours/ha-noi-phu-quoc-%E2%80%9Cthien-duong-noi-ha-gioi%E2%80%9D/3.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    3 Ngày / 2 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    7 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”">
+                                        HÀ NỘI – PHÚ QUỐC “THIÊN ĐƯỜNG NƠI HẠ GIỚI” <span class="list-tour__time">
+                                            (
+                                            3 Ngày / 2 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Máy Bay &amp; Ô tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> 2021
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">2,979,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2187/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang"><img src="/files/images/tours/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang/164416368.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    4 Ngày / 3 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    8 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang">
+                                        HÀ NỘI – NHA TRANG BIỂN XANH, CÁT TRẮNG, NẮNG VÀNG <span class="list-tour__time">
+                                            (
+                                            4 Ngày / 3 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> Tháng 05
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">3,200,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2188/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-sam-son-khuc-tinh-ca-cua-bien"><img src="/files/images/tours/ha-noi-sam-son-khuc-tinh-ca-cua-bien/6868_vi_sao_sam_son_duoc_nguoi_phap_goi_la_diem_nghi_du_10430520062019.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    3 Ngày / 2 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    9 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-sam-son-khuc-tinh-ca-cua-bien">
+                                        HÀ NỘI – SẦM SƠN - KHÚC TÌNH CA CỦA BIỂN <span class="list-tour__time">
+                                            (
+                                            3 Ngày / 2 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Ô Tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i> 2021
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">2,100,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2190/ha-noi-sam-son-khuc-tinh-ca-cua-bien" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/tay-nguyen-huyen-thoai"><img src="/files/images/tours/tay-nguyen/du-lich-mang-den-kom-tum-gia-lai-buon-me-thuot-4n4d-11.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    4 Ngày / 3 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    0 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/tay-nguyen-huyen-thoai">
+                                        TÂY NGUYÊN HUYỀN THOẠI <span class="list-tour__time">
+                                            (
+                                            4 Ngày / 3 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">máy bay và ô tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">3,209,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2219/tay-nguyen-huyen-thoai" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-tour__item">
+                    <div class="list-tour__item-detail">
+                        <div class="list-tour__img">
+                            <a href="/tour/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi"><img src="/files/images/tours/ha-giang/unnamed.jpg" alt=""></a>
+                            <div class="time-slot">
+                                <span class="list-tour__time">
+                                    <i class="fas fa-clock"></i>
+                                    7 Ngày / 6 Đêm
+                                </span>
+                                <span class="list-tour__slot">
+                                    <i class="fas fa-user"></i>
+                                    0 chỗ
+                                </span>
+                            </div>
+                            <div class="list-tour__sale">
+                                <img src="/Files/Images/tours/group.png" alt="">
+                                <div class="sale-detail">
+                                    <p class="sale-text">sale</p>
+                                    <span class="sale-price">0<span class="unit">%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-tour__content">
+                            <div class="list-tour__title">
+                                <h4>
+                                    <a href="/tour/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi">
+                                        HÀ NỘI – HÀ GIANG – BA BỂ - CAO BẰNG – LẠNG SƠN – HÀ NỘI <span class="list-tour__time">
+                                            (
+                                            7 Ngày / 6 Đêm)
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="list-tour__detail">
+                                <div class="list-tour__left">
+                                    <div class="list-tour__transport">
+                                        <i class="fas fa-walking"></i>
+                                        <span class="transport">Ô tô</span>
+                                    </div>
+                                    <div class="list-tour__date">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="list-tour__right">
+                                    <div class="list-tour__price">
+                                        <p class="price-title">giá từ</p>
+                                        <span class="price">5,600,000 đ </span>
+                                    </div>
+                                    <a href="/Booktour/2220/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tab-pane  fade" id="hottour2">
+            <div class="hot-tour__list list-tour">
+                <!-- Tour giờ chót -->
+            </div>
+
+        </div>
+    </div>
+    <div class="tab-content box__content d-block d-lg-none">
+        <div class="tab-pane active" id="hottour3">
+            <div class="hot-tour__mobile list-tour owl-carousel owl-theme owl-loaded owl-hidden">
+
+
+
+
+
+
+
+
+
+
+                <div class="owl-stage-outer">
+                    <div class="owl-stage" style="transform: translate3d(-1252px, 0px, 0px); transition: all 0s ease 0s; width: 6260px;">
+                        <div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”"><img src="/files/images/tours/ha-noi-phu-quoc-%E2%80%9Cthien-duong-noi-ha-gioi%E2%80%9D/3.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                7 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”">
+                                                    HÀ NỘI – PHÚ QUỐC “THIÊN ĐƯỜNG NƠI HẠ GIỚI” <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">2,979,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2187/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang"><img src="/files/images/tours/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang/164416368.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                8 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang">
+                                                    HÀ NỘI – NHA TRANG BIỂN XANH, CÁT TRẮNG, NẮNG VÀNG <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> Tháng 05
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,200,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2188/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-sam-son-khuc-tinh-ca-cua-bien"><img src="/files/images/tours/ha-noi-sam-son-khuc-tinh-ca-cua-bien/6868_vi_sao_sam_son_duoc_nguoi_phap_goi_la_diem_nghi_du_10430520062019.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                9 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-sam-son-khuc-tinh-ca-cua-bien">
+                                                    HÀ NỘI – SẦM SƠN - KHÚC TÌNH CA CỦA BIỂN <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">2,100,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2190/ha-noi-sam-son-khuc-tinh-ca-cua-bien" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/tay-nguyen-huyen-thoai"><img src="/files/images/tours/tay-nguyen/du-lich-mang-den-kom-tum-gia-lai-buon-me-thuot-4n4d-11.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                0 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/tay-nguyen-huyen-thoai">
+                                                    TÂY NGUYÊN HUYỀN THOẠI <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">máy bay và ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i>
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,209,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2219/tay-nguyen-huyen-thoai" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi"><img src="/files/images/tours/ha-giang/unnamed.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                7 Ngày / 6 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                0 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi">
+                                                    HÀ NỘI – HÀ GIANG – BA BỂ - CAO BẰNG – LẠNG SƠN – HÀ NỘI <span class="list-tour__time">
+                                                        (
+                                                        7 Ngày / 6 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i>
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">5,600,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2220/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item active" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an"><img src="/files/images/tours/hoi_an_nam_trong_top_50_diem_den-1594520936343.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                20 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">25<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an">
+                                                    HÀ NỘI – ĐÀ NẴNG – BÀ NÀ HILL – PHỐ CỔ HỘI AN <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,700,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/1116/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item active" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-co-to-“chuyen-tinh-dao-nho”"><img src="/files/images/tours/55882072_1013527955501285_713651774493294592_n.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                20 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-co-to-“chuyen-tinh-dao-nho”">
+                                                    HÀ NỘI – CÔ TÔ “CHUYỆN TÌNH ĐẢO NHỎ” <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> Tháng 06
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,700,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2182/ha-noi-–-co-to-“chuyen-tinh-dao-nho”" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item active" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an"><img src="/files/images/tours/ha-noi-da-nang-ba-na-hill-pho-co-hoi-an/0004822_tour-chua-linh-ung-son-tra-ngu-hanh-son-hoi-an.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                4 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an">
+                                                    HÀ NỘI – ĐÀ NẴNG – BÀ NÀ HILL – PHỐ CỔ HỘI AN <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,200,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2184/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-bien-hai-tien-–ha-noi"><img src="/files/images/tours/ha-noi-%E2%80%93-bien-hai-tien-%E2%80%93ha-noi/cau-hai-tien3-1.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                5 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-bien-hai-tien-–ha-noi">
+                                                    HÀ NỘI – BIỂN HẢI TIẾN –HÀ NỘI <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> Tháng 06
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">2,055,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2185/ha-noi-–-bien-hai-tien-–ha-noi" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo"><img src="/files/images/tours/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo/lang-chai-Nhon-hai-Trung-Pham-2152-6699-1592469556.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                6 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo">
+                                                    HÀ NỘI – QUY NHƠN – PHÚ YÊN-  VỀ MIỀN ĐẤT VÕ  <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,905,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2186/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”"><img src="/files/images/tours/ha-noi-phu-quoc-%E2%80%9Cthien-duong-noi-ha-gioi%E2%80%9D/3.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                7 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”">
+                                                    HÀ NỘI – PHÚ QUỐC “THIÊN ĐƯỜNG NƠI HẠ GIỚI” <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">2,979,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2187/ha-noi-phu-quoc-“thien-duong-noi-ha-gioi”" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang"><img src="/files/images/tours/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang/164416368.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                8 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang">
+                                                    HÀ NỘI – NHA TRANG BIỂN XANH, CÁT TRẮNG, NẮNG VÀNG <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> Tháng 05
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,200,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2188/ha-noi-nha-trang-bien-xanh-cat-trang-nang-vang" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-sam-son-khuc-tinh-ca-cua-bien"><img src="/files/images/tours/ha-noi-sam-son-khuc-tinh-ca-cua-bien/6868_vi_sao_sam_son_duoc_nguoi_phap_goi_la_diem_nghi_du_10430520062019.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                9 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-sam-son-khuc-tinh-ca-cua-bien">
+                                                    HÀ NỘI – SẦM SƠN - KHÚC TÌNH CA CỦA BIỂN <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">2,100,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2190/ha-noi-sam-son-khuc-tinh-ca-cua-bien" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/tay-nguyen-huyen-thoai"><img src="/files/images/tours/tay-nguyen/du-lich-mang-den-kom-tum-gia-lai-buon-me-thuot-4n4d-11.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                0 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/tay-nguyen-huyen-thoai">
+                                                    TÂY NGUYÊN HUYỀN THOẠI <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">máy bay và ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i>
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,209,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2219/tay-nguyen-huyen-thoai" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi"><img src="/files/images/tours/ha-giang/unnamed.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                7 Ngày / 6 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                0 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi">
+                                                    HÀ NỘI – HÀ GIANG – BA BỂ - CAO BẰNG – LẠNG SƠN – HÀ NỘI <span class="list-tour__time">
+                                                        (
+                                                        7 Ngày / 6 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i>
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">5,600,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2220/ha-noi-–-ha-giang-–-ba-be-cao-bang-–-lang-son-–-ha-noi" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an"><img src="/files/images/tours/hoi_an_nam_trong_top_50_diem_den-1594520936343.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                20 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">25<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an">
+                                                    HÀ NỘI – ĐÀ NẴNG – BÀ NÀ HILL – PHỐ CỔ HỘI AN <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,700,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/1116/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-co-to-“chuyen-tinh-dao-nho”"><img src="/files/images/tours/55882072_1013527955501285_713651774493294592_n.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                20 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-co-to-“chuyen-tinh-dao-nho”">
+                                                    HÀ NỘI – CÔ TÔ “CHUYỆN TÌNH ĐẢO NHỎ” <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> Tháng 06
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,700,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2182/ha-noi-–-co-to-“chuyen-tinh-dao-nho”" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an"><img src="/files/images/tours/ha-noi-da-nang-ba-na-hill-pho-co-hoi-an/0004822_tour-chua-linh-ung-son-tra-ngu-hanh-son-hoi-an.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                4 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an">
+                                                    HÀ NỘI – ĐÀ NẴNG – BÀ NÀ HILL – PHỐ CỔ HỘI AN <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,200,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2184/ha-noi-–-da-nang-–-ba-na-hill-–-pho-co-hoi-an" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-–-bien-hai-tien-–ha-noi"><img src="/files/images/tours/ha-noi-%E2%80%93-bien-hai-tien-%E2%80%93ha-noi/cau-hai-tien3-1.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                3 Ngày / 2 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                5 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-–-bien-hai-tien-–ha-noi">
+                                                    HÀ NỘI – BIỂN HẢI TIẾN –HÀ NỘI <span class="list-tour__time">
+                                                        (
+                                                        3 Ngày / 2 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Ô Tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> Tháng 06
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">2,055,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2185/ha-noi-–-bien-hai-tien-–ha-noi" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="owl-item cloned" style="width: 303px; margin-right: 10px;">
+                            <div class="list-tour__item " "" ="">
+                                <div class="list-tour__item-detail">
+                                    <div class="list-tour__img">
+                                        <a href="/tour/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo"><img src="/files/images/tours/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo/lang-chai-Nhon-hai-Trung-Pham-2152-6699-1592469556.jpg" alt=""></a>
+                                        <div class="time-slot">
+                                            <span class="list-tour__time">
+                                                <i class="fas fa-clock"></i>
+                                                4 Ngày / 3 Đêm
+                                            </span>
+                                            <span class="list-tour__slot">
+                                                <i class="fas fa-user"></i>
+                                                6 chỗ
+                                            </span>
+                                        </div>
+                                        <div class="list-tour__sale">
+                                            <img src="/Files/Images/tours/group.png" alt="">
+                                            <div class="sale-detail">
+                                                <p class="sale-text">sale</p>
+                                                <span class="sale-price">0<span class="unit">%</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour__content">
+                                        <div class="list-tour__title">
+                                            <h4>
+                                                <a href="/tour/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo">
+                                                    HÀ NỘI – QUY NHƠN – PHÚ YÊN-  VỀ MIỀN ĐẤT VÕ  <span class="list-tour__time">
+                                                        (
+                                                        4 Ngày / 3 Đêm)
+                                                    </span>
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div class="list-tour__detail">
+                                            <div class="list-tour__left">
+                                                <div class="list-tour__transport">
+                                                    <i class="fas fa-walking"></i>
+                                                    <span class="transport">Máy Bay &amp; Ô tô</span>
+                                                </div>
+                                                <div class="list-tour__date">
+                                                    <i class="fas fa-calendar-alt"></i> 2021
+                                                </div>
+                                            </div>
+                                            <div class="list-tour__right">
+                                                <div class="list-tour__price">
+                                                    <p class="price-title">giá từ</p>
+                                                    <span class="price">3,905,000 đ </span>
+                                                </div>
+                                                <a href="/Booktour/2186/ha-noi-quy-nhon-phu-yen-ve-mien-dat-vo" style="float: right;" class="btn btn--placeholder"> Giữ chỗ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><img src="./Assets/images/icon/left.svg"></button><button type="button" role="presentation" class="owl-next"><img src="./Assets/images/icon/right.svg"></button></div><div class="owl-dots disabled"></div>
+            </div>
+
+        </div>
+        <div class="tab-pane  fade" id="hottour4">
+            <div class="hot-tour__mobile list-tour owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer"><div class="owl-stage"></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><img src="./Assets/images/icon/left.svg"></button><button type="button" role="presentation" class="owl-next"><img src="./Assets/images/icon/right.svg"></button></div><div class="owl-dots disabled"></div>
+            </div>
+
+        </div>
+    </div>
+
 </div>
